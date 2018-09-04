@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "furfun2.css"> 
+        <meta charset="utf-8">
+        <meta name="keywords" content="dogs, dog, puppies, cute animals">
+        <meta name="author" content="Matthew Reddick & Benjamin Hatch">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon2.png">
+        <title>Doggos Fur-Ever</title>
+    </head>
+        <body>
+            <header>The Place For Man's Best Friends</header>
+            <div id="headerLinks">
+                <nav>
+                    <ul>
+                        <li ><a href="Doggo.html">Home</a></li>
+                        <li ><a href="funfacts.html">Fun Facts</a></li>
+                        <li ><a href="About.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            
+            <div id="sidebar">
+                <div class="slideshow-container">
+
+                  <!-- Full-width slides/quotes -->
+                  <div class="mySlides">
+                    <q>The Newfoundland breed has a water resistant coat and webbed feet. This dog was originally bred to help haul nets for fishermen and rescuing people at risk of drowning.</q>
+                    
+                  </div>
+                
+                  <div class="mySlides">
+                    <q> Three dogs (from First Class cabins!) survived the sinking of the Titanic – two Pomeranians and one Pekingese.</q>
+                    
+                  </div>
+                
+                  <div class="mySlides">
+                    <q> It’s rumored that, at the end of the Beatles song, “A Day in the Life,” Paul McCartney recorded an ultrasonic whistle, audible only to dogs, just for his Shetland sheepdog.</q>
+                    
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q>  Dalmatian puppies are pure white when they are born and develop their spots as they grow older.</q>
+                    
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q> Dogs and humans have the same type of slow wave sleep (SWS) and rapid eye movement (REM) and during this REM stage dogs can dream. The twitching and paw movements that occur during their sleep are signs that your pet is dreaming</q>
+                    
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q>  Dogs’ eyes contain a special membrane, called the tapetum lucidum, which allows them to see in the dark.</q>
+                    
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q>  Unlike humans who sweat everywhere, dogs only sweat through the pads of their feet.</q>
+                    
+                  </div>
+                
+                  <!-- Next/prev buttons -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                
+                <!-- Dots/bullets/indicators -->
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span>
+                  <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1} 
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none"; 
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                  slides[slideIndex-1].style.display = "block"; 
+                  dots[slideIndex-1].className += " active";
+                }
+            </script>
+            
+            <footer>
+                <div id="format">
+                
+                <ul>
+                    <li >Doggos Fur-Ever- A Site Fur Dogs &copy; 2018</li>
+                    <li>Written By Matthew Reddick & Benjamin Hatch</li>
+                    <li>Visit Our School At <a href="https://www.granadahigh.com/">Granada High</a></li>
+                </ul>
+                </div>
+            </footer>
+        </body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background:black;
+    background-image: url('header.jpg');
+    background-size: 100%;
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    font-family: georgia;
+    font-size: 30px;
+    color:white;
+    
+}
+
+
+#headerLinks ul{
+    float:right;
+    list-style: none;
+    overflow:hidden;
+    width:30%;
+    margin-top: 0px;
+   
+}
+
+#headerLinks li {
+    display: inline;
+    margin-right:20px;
+}
+header{
+    float:left;
+    margin-left: 10px;
+}
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:#77dd77;
+}
+
+#sidebar p{
+   
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+footer{
+    background-color:black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    font-size:16px;
+    
+}
+#format ul{
+    color:white;
+    list-style:none;
+    overflow:hidden;
+    margin-right:auto;
+    margin-left:auto;
+    width:100%;
+    text-align:center;
+}
+#format li{
+    margin-top: 20px;
+}
