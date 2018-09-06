@@ -1,0 +1,159 @@
+body{
+    background:black;
+    background-image: url('aboutBack2.jpg');
+    background-size: 100%;
+    background-position: 0 -200px;
+    
+    background-repeat: no-repeat;
+    font-family: georgia;
+    font-size: 30px;
+    color:white;
+    
+}
+
+
+#headerLinks ul{
+    float:right;
+    list-style: none;
+    overflow:hidden;
+    width:30%;
+    margin-top: 0px;
+   
+}
+
+#headerLinks li {
+    display: inline;
+    margin-right:20px;
+}
+header{
+    float:left;
+    margin-left: 10px;
+    text-shadow: 3px 3px #e6210e;
+    
+}
+ a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+   font-size:35px;
+    text-shadow: 2px 2px  #e6210e;
+}
+
+
+#sidebar{
+    padding-top: 200px;
+    padding-left: 60px;
+}
+#sidebar p{
+   
+    color:	#1E90FF;
+    width: 360px; 
+    position: fixed; 
+    z-index: 1; 
+    top:350;
+    padding-left:15px;
+    background: rgb(20,20,20,0.85);
+    border-radius:20px;
+    overflow-x: hidden; 
+    
+    
+
+}
+h1{
+    color:red;
+}
+
+footer{
+    background-color:black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    font-size:16px;
+    
+}
+#format ul{
+    color:white;
+    list-style:none;
+    overflow:hidden;
+    margin-right:auto;
+    margin-left:auto;
+    width:100%;
+    text-align:center;
+}
+#format li{
+    margin-top: 20px;
+}
+
+.slideshow-container {
+  width:33%;
+  position: absolute;
+  color: #e6210e;
+  background:rgb(0,0,0,0.85);
+}
+
+/* Slides */
+.mySlides {
+  
+  display: none;
+  padding: 80px;
+  text-align: center;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  width:32.7%;
+  text-align: center;
+  padding: 15px;
+  background: rgb(150,150,150);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #e6210e;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
