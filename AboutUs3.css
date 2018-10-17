@@ -69,6 +69,13 @@ h2{
     color:rgb(0,0,0);
     
 }
+h3{
+    width:60%;
+    text-shadow: 2px 2px  #e6210e;
+    padding-left: 850px;
+    padding-top:230px;
+    color:rgb(0, 0, 0);
+}
 
 footer{
     background-color:black;
